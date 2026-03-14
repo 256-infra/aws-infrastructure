@@ -16,12 +16,12 @@
 
 各ディレクトリに詳細な構成図と設計思想を記載した `README.md` を配置しています。
 
-### 🏗 [Practical Work](./projects/practical-work/)
+### 🏗 [Infrastructure Modernization](./projects/infrastructure-modernization/)
 
-実務でのリプレイス案件をベースとした、高可用・高セキュアなインフラ構成のテンプレート集。
+実務における手動運用・構築業務をIaC（Terraform）でコード化し、運用の標準化と効率化を推進するプロジェクト。
 
-- **Keywords:** VPC, Multi-AZ, ALB, EC2, RDS, Terraform
-- **Highlights:** 最小権限原則に基づくSecurity Group設計と、環境分離 (Dev/Prod) の実現。
+- **Focus:** 手動オペレーションの排除、冪等性の確保、レビュー可能なインフラ構成の実現。
+- **Highlights:** 既存リソースのドキュメント化（構成図作成）およびTerraformへのインポートによる管理移行。
 
 ### 🚢 [Container Learning](./projects/container-learning/)
 
